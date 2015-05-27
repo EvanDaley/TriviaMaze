@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Nebula_Blue_001
+  m_Shader: {fileID: 4800000, guid: efb9c93ae1381254e9650b03575efd9b, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: a903273da18a84a42b1b2f9293b83ec1, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _CoronaNoise
+        second:
+          m_Texture: {fileID: 2800000, guid: 87a93aa207c5201489876e9c4292685b, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Nebula
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _InvFade
+        second: 1
+      data:
+        first:
+          name: _MaxFadeStart
+        second: 50
+      data:
+        first:
+          name: _MaxFadeEnd
+        second: 150
+      data:
+        first:
+          name: _DischargeTileX
+        second: 5.61999989
+      data:
+        first:
+          name: _DischargeTileY
+        second: 4.98000002
+      data:
+        first:
+          name: _DischargePanSpeed
+        second: 4.98999977
+      data:
+        first:
+          name: _CoronaFluidTile
+        second: 16.8899994
+      data:
+        first:
+          name: _CoronaFluidInfluence
+        second: 16.2600002
+      data:
+        first:
+          name: _SolarStormFalloff
+        second: 6.01000023
+      data:
+        first:
+          name: _SolarStormPower
+        second: 1
+      data:
+        first:
+          name: _CoronaTileX
+        second: 12.3500004
+      data:
+        first:
+          name: _CoronaTileY
+        second: 1
+      data:
+        first:
+          name: _CoronaSpeed
+        second: 13.0799999
+      data:
+        first:
+          name: _CoronaAmp
+        second: 41.0999985
+      data:
+        first:
+          name: _CoronaExp
+        second: .519999981
+      data:
+        first:
+          name: _CoronaBoost
+        second: 1
+      data:
+        first:
+          name: _CoronaFalloff
+        second: 1
+      data:
+        first:
+          name: _EdgeMaskFalloff
+        second: 11.2799997
+      data:
+        first:
+          name: _EdgeMaskPower
+        second: 1
+      data:
+        first:
+          name: _FadeStart
+        second: 40
+      data:
+        first:
+          name: _FadeEnd
+        second: 50
+      data:
+        first:
+          name: _MinFadeStart
+        second: 0
+      data:
+        first:
+          name: _MinFadeEnd
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _CoronaColor
+        second: {r: .53865701, g: .843873024, b: .904411793, a: 1}
+      data:
+        first:
+          name: _ColorFrom
+        second: {r: .5, g: .5, b: .5, a: .5}
+      data:
+        first:
+          name: _ColorTo
+        second: {r: .5, g: .5, b: .5, a: .5}
+      data:
+        first:
+          name: _ColorMaskFrom
+        second: {r: .5, g: .5, b: .5, a: .5}
+      data:
+        first:
+          name: _ColorMaskTo
+        second: {r: .5, g: .5, b: .5, a: .5}

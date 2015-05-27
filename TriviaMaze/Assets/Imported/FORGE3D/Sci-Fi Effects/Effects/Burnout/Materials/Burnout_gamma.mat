@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Burnout_gamma
+  m_Shader: {fileID: 4800000, guid: 230dcf32a0184ed409b21e674d1f35b4, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 3f1398d58d9771f41bc59080e2e75a47, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal
+        second:
+          m_Texture: {fileID: 2800000, guid: 4316d53818a14334b954fa305b364f1c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Diffuse
+        second:
+          m_Texture: {fileID: 2800000, guid: ddbaefd8f70b0f14d9a9cc658b7724a2, type: 3}
+          m_Scale: {x: 2, y: 2}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cubemap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Glow
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _PGS
+        second:
+          m_Texture: {fileID: 2800000, guid: 3f1398d58d9771f41bc59080e2e75a47, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Damage
+        second:
+          m_Texture: {fileID: 2800000, guid: ddbaefd8f70b0f14d9a9cc658b7724a2, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BurnoutMask
+        second:
+          m_Texture: {fileID: 2800000, guid: 25030d03ae26bb24c9125f5439aac693, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _WipeEm
+        second:
+          m_Texture: {fileID: 2800000, guid: 26751794c16add349bfcfe13bfdc4c51, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _WipeOp
+        second:
+          m_Texture: {fileID: 2800000, guid: 312e6973e5c47604b84b19a9931ad2f2, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LoopTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 766951da0ad9ae64c92c708fb761e594, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MaskTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 552f0d6a3d8716244857aed1d8e0823a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: 0
+      data:
+        first:
+          name: _Shininess
+        second: 1
+      data:
+        first:
+          name: _DiffusePower
+        second: .540000021
+      data:
+        first:
+          name: _SpecularAdd
+        second: .200000003
+      data:
+        first:
+          name: _SpecularMult
+        second: 3.75
+      data:
+        first:
+          name: _SpecularA
+        second: 156.5
+      data:
+        first:
+          name: _SpecularB
+        second: 44.5
+      data:
+        first:
+          name: _SpecularRatio
+        second: .689999998
+      data:
+        first:
+          name: _ReflectionMult
+        second: -.119999997
+      data:
+        first:
+          name: _ReflectionDesaturation
+        second: 0
+      data:
+        first:
+          name: _FresnelPower
+        second: 2.16000009
+      data:
+        first:
+          name: _FresnelMult
+        second: .100000001
+      data:
+        first:
+          name: _GlowMult
+        second: 0
+      data:
+        first:
+          name: _BurnOut
+        second: 0
+      data:
+        first:
+          name: _UVPan
+        second: 0
+      data:
+        first:
+          name: _SpecularPower
+        second: 46.0999985
+      data:
+        first:
+          name: _SpecularFactor
+        second: 9.77000046
+      data:
+        first:
+          name: _FresnelExp
+        second: .0299999993
+      data:
+        first:
+          name: _BurnUVOffset
+        second: .150000006
+      data:
+        first:
+          name: _Cut
+        second: .0900000036
+      data:
+        first:
+          name: _ShadowIntensity
+        second: .635714293
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: .544117689, b: .544117689, a: 0}
+      data:
+        first:
+          name: _AmbientColor
+        second: {r: 1, g: .448529422, b: .448529422, a: 1}
+      data:
+        first:
+          name: _BurnColor
+        second: {r: 1, g: .310364336, b: 0, a: 1}
+      data:
+        first:
+          name: _SpecularColor
+        second: {r: 1, g: .33088237, b: .33088237, a: 1}
+      data:
+        first:
+          name: _FresnelColor
+        second: {r: 1, g: .485294104, b: .485294104, a: 1}

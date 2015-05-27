@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &161976
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 499596}
+  - 114: {fileID: 11409262}
+  - 114: {fileID: 11462308}
+  m_Layer: 0
+  m_Name: MapEditor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &499596
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161976}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11409262
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e88f8e51759cd844b2bb56681cee56d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapWidth: 120
+  mapLength: 120
+  terminalGrouping: {fileID: 0}
+  roomWidth: 30
+  roomLength: 30
+  position: {x: 0, y: 0, z: 0}
+--- !u!114 &11462308
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3e106fc48b357247abed58c1087ae6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnMarkerPrefab: {fileID: 190788, guid: 87e91c94f64afb641a4a11da8e00b27b, type: 2}
+  spawnMarkerInstance: {fileID: 0}
+  wallPrefab1: {fileID: 0}
+  cubePrefab1: {fileID: 162292, guid: 2f6cf732fb976144aacaebc26c436a27, type: 2}
+  mountedTurret: {fileID: 0}
+  floor: {fileID: 171178, guid: 0b660f2dc97402645a205bea87760e9a, type: 2}
+  fullSidewall: {fileID: 196678, guid: 08f738119bee7964aa407309407198a6, type: 2}
+  fullBackWall: {fileID: 113700, guid: 0d30cd949a3691343bb6a1328f5899b6, type: 2}
+  doorGrouping: {fileID: 167340, guid: feb8200029e5eac42b9ce4417a9f2464, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 161976}
+  m_IsPrefabParent: 1

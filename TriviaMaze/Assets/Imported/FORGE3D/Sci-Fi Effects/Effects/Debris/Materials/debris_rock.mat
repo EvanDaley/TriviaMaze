@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: debris_rock
+  m_Shader: {fileID: 4800000, guid: 79f85fa886ad7df4cb7874ae6306efc1, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 9e69f8e597471ca4195f2e5c72dccde2, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal
+        second:
+          m_Texture: {fileID: 2800000, guid: 9b9cf2b595cb7074b835152e190dc4ee, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Diffuse
+        second:
+          m_Texture: {fileID: 2800000, guid: 9773c70c5ece04f4b92f15d8e16176ca, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cubemap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Glow
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Specular
+        second:
+          m_Texture: {fileID: 2800000, guid: 9773c70c5ece04f4b92f15d8e16176ca, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _DiffusePower
+        second: 2.4000001
+      data:
+        first:
+          name: _SpecularAdd
+        second: .0500000007
+      data:
+        first:
+          name: _SpecularMult
+        second: .0599999987
+      data:
+        first:
+          name: _SpecularA
+        second: 1147.71997
+      data:
+        first:
+          name: _SpecularB
+        second: 985.099976
+      data:
+        first:
+          name: _SpecularRatio
+        second: 1.46000004
+      data:
+        first:
+          name: _ReflectionMult
+        second: 0
+      data:
+        first:
+          name: _ReflectionDesaturation
+        second: 0
+      data:
+        first:
+          name: _FresnelPower
+        second: 1
+      data:
+        first:
+          name: _FresnelMult
+        second: 0
+      data:
+        first:
+          name: _GlowMult
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _InMinMaxOutMinMax
+        second: {r: 0, g: 5, b: 10, a: 20}

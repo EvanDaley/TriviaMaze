@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: warp_tunnel_001
+  m_Shader: {fileID: 4800000, guid: 825f8f2d65c2bdd42bf5aedd4938cb12, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 0a96187b3b433eb45af9a2b57cbe1ceb, type: 3}
+          m_Scale: {x: 1.5, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _InvFade
+        second: 3
+      data:
+        first:
+          name: _Speed
+        second: -15
+      data:
+        first:
+          name: _WiggleX
+        second: 0
+      data:
+        first:
+          name: _WiggleY
+        second: 0
+      data:
+        first:
+          name: _WiggleDist
+        second: 6.38999987
+      data:
+        first:
+          name: _MaxFadeStart
+        second: 400
+      data:
+        first:
+          name: _MaxFadeEnd
+        second: 873.400024
+      data:
+        first:
+          name: _Wiggle
+        second: 105.760002
+      data:
+        first:
+          name: _WiggleMult
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _TintColor
+        second: {r: .536770165, g: .221026674, b: .227559432, a: .407843143}
