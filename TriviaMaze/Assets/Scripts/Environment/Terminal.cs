@@ -210,7 +210,7 @@ public class Terminal : MonoBehaviour, IActivate, ISaveState {
 		playerInside = false;
 	}
 	
-	void SelectAnswer(int selection)
+	public void SelectAnswer(int selection)
 	{
 		print ("User selected: " + selection);
 

@@ -76,6 +76,11 @@ public class Character : Singleton<Character> {
 
 	void Update()
 	{
+		if(Input.GetKeyDown (KeyCode.Tab))
+		{
+			firstPersonController.CanMove = !firstPersonController.CanMove;
+		}
+
 		if(Time.timeScale == 0)
 			return;
 
