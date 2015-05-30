@@ -87,11 +87,11 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
---- !u!4 &19687444
+--- !u!4 &19687444 stripped
 Transform:
   m_PrefabParentObject: {fileID: 482974, guid: a2d05e3cb689f264f969be5477c50143, type: 2}
   m_PrefabInternal: {fileID: 793297625}
---- !u!4 &48303160
+--- !u!4 &48303160 stripped
 Transform:
   m_PrefabParentObject: {fileID: 482974, guid: a2d05e3cb689f264f969be5477c50143, type: 2}
   m_PrefabInternal: {fileID: 195361919}
@@ -324,7 +324,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a2d05e3cb689f264f969be5477c50143, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &189005379
+--- !u!4 &189005379 stripped
 Transform:
   m_PrefabParentObject: {fileID: 482974, guid: a2d05e3cb689f264f969be5477c50143, type: 2}
   m_PrefabInternal: {fileID: 192240715}
@@ -596,7 +596,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a2d05e3cb689f264f969be5477c50143, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &449413301
+--- !u!4 &449413301 stripped
 Transform:
   m_PrefabParentObject: {fileID: 482974, guid: a2d05e3cb689f264f969be5477c50143, type: 2}
   m_PrefabInternal: {fileID: 270520318}
@@ -706,11 +706,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a2d05e3cb689f264f969be5477c50143, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &583913631
+--- !u!4 &583913631 stripped
 Transform:
   m_PrefabParentObject: {fileID: 482974, guid: a2d05e3cb689f264f969be5477c50143, type: 2}
   m_PrefabInternal: {fileID: 2095100678}
---- !u!4 &594279077
+--- !u!4 &594279077 stripped
 Transform:
   m_PrefabParentObject: {fileID: 482974, guid: a2d05e3cb689f264f969be5477c50143, type: 2}
   m_PrefabInternal: {fileID: 188435657}
@@ -1008,11 +1008,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a2d05e3cb689f264f969be5477c50143, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &853239230
+--- !u!4 &853239230 stripped
 Transform:
   m_PrefabParentObject: {fileID: 482974, guid: a2d05e3cb689f264f969be5477c50143, type: 2}
   m_PrefabInternal: {fileID: 1456028853}
---- !u!4 &879382096
+--- !u!4 &879382096 stripped
 Transform:
   m_PrefabParentObject: {fileID: 482974, guid: a2d05e3cb689f264f969be5477c50143, type: 2}
   m_PrefabInternal: {fileID: 500116219}
@@ -1255,7 +1255,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!4 &1200240722
+--- !u!4 &1200240722 stripped
 Transform:
   m_PrefabParentObject: {fileID: 482974, guid: a2d05e3cb689f264f969be5477c50143, type: 2}
   m_PrefabInternal: {fileID: 448330556}
@@ -1325,7 +1325,7 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1260064394}
---- !u!4 &1265464742
+--- !u!4 &1265464742 stripped
 Transform:
   m_PrefabParentObject: {fileID: 482974, guid: a2d05e3cb689f264f969be5477c50143, type: 2}
   m_PrefabInternal: {fileID: 1696757010}
@@ -1755,7 +1755,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cca94be29507f774d8b6bdd59c796a26, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &1573794376
+--- !u!4 &1573794376 stripped
 Transform:
   m_PrefabParentObject: {fileID: 482974, guid: a2d05e3cb689f264f969be5477c50143, type: 2}
   m_PrefabInternal: {fileID: 1110741327}
@@ -1805,17 +1805,17 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a2d05e3cb689f264f969be5477c50143, type: 2}
   m_IsPrefabParent: 0
---- !u!114 &1718678223
+--- !u!114 &1718678223 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11473774, guid: cca94be29507f774d8b6bdd59c796a26,
     type: 2}
   m_PrefabInternal: {fileID: 1479071562}
   m_Script: {fileID: 11500000, guid: 8e15b201959bfb24f919a94c13cab8a0, type: 3}
---- !u!4 &1788198879
+--- !u!4 &1788198879 stripped
 Transform:
   m_PrefabParentObject: {fileID: 482974, guid: a2d05e3cb689f264f969be5477c50143, type: 2}
   m_PrefabInternal: {fileID: 1270129062}
---- !u!4 &1812313590
+--- !u!4 &1812313590 stripped
 Transform:
   m_PrefabParentObject: {fileID: 482974, guid: a2d05e3cb689f264f969be5477c50143, type: 2}
   m_PrefabInternal: {fileID: 393139216}

@@ -22876,7 +22876,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   userInput: {fileID: 11482964}
   terminal: {fileID: 11443292}
-  correctAnswer: Reykjavik
+  correctAnswer: Reykjavic
 --- !u!114 &11493218
 MonoBehaviour:
   m_ObjectHideFlags: 1
