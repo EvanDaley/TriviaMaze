@@ -557,7 +557,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 22406182}
   m_Direction: 2
   m_Value: 1
-  m_Size: .237037033
+  m_Size: .325916231
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -933,7 +933,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: .141379297, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: .141379297, b: .135529101, a: 1}
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0

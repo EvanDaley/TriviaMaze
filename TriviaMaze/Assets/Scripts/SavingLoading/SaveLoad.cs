@@ -46,7 +46,7 @@ public static class SaveLoad {
 		return uniqueID;
 	}
 
-	public static void UpdateLists()
+	public static void FetchList()
 	{
 		if(File.Exists(Application.persistentDataPath + "/savedGames.maze")) {
 			
@@ -74,7 +74,7 @@ public static class SaveLoad {
 		Debug.Log("Location: " + location);
 
 		// Load the previous save file so it isn't over-written
-		SaveLoad.UpdateLists ();
+		SaveLoad.FetchList ();
 
 		SavedGame.current = new SavedGame();
 
@@ -110,7 +110,7 @@ public static class SaveLoad {
 	// Retrieve our stored generic list. This gives us an unsorted list of Game objects, each of which contain player location, timestamps, object states, etc.
 	public static void Load(SavedGame game) {
 		sceneObjects = new List<Transform>();
-		UpdateLists ();
+		FetchList ();
 
 		// load level
 		SavedGame.current = game;

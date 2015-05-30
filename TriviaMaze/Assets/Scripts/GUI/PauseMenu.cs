@@ -9,7 +9,7 @@ using UnityEngine;
 using System.Collections;
 
 public class PauseMenu : MonoBehaviour {
-
+	
 	// Update is called once per frame
 	void Update () {
 		if(PauseMenuActivator.Instance.Paused)
@@ -23,19 +23,20 @@ public class PauseMenu : MonoBehaviour {
 			{
 				ButtonPressed_Resume();
 			}
-
+			
 			if(Input.GetKeyDown (KeyCode.O))
 			{
 				ButtonPressed_Options();
 			}
-
+			
 			if(Input.GetKeyDown (KeyCode.S))
 			{
-				ButtonPressed_Save();
+				if(Character.Instance.Health > 0)
+					ButtonPressed_Save();
 			}
 		}
 	}
-
+	
 	public void ButtonPressed_QuitGame()
 	{
 		Time.timeScale = 1;
@@ -43,18 +44,18 @@ public class PauseMenu : MonoBehaviour {
 		//Application.Quit ();
 		Application.LoadLevel ("MainMenu");
 	}
-
+	
 	public void ButtonPressed_Resume()
 	{
 		PauseMenuActivator.Instance.Paused = false;
 	}
-
+	
 	public void ButtonPressed_Save()
 	{
 		print ("Save the game!");
 		SaveLoad.Save();
 	}
-
+	
 	public void ButtonPressed_Options()
 	{
 		//trigger options somehow
