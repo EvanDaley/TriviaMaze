@@ -31,6 +31,7 @@ public class LoadGameMenu : MonoBehaviour {
 	{
 		print ("Loading new game");
 		SaveLoad.sceneObjects = new List<Transform>();
+		SavedGame.current = null;
 		Application.LoadLevel ("Level1Preloader");
 	}
 	
