@@ -268,11 +268,7 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11486876, guid: 14c453ae4f1dd924f97e54637727c306, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1718678223}
-    - target: {fileID: 11447902, guid: 14c453ae4f1dd924f97e54637727c306, type: 2}
+    - target: {fileID: 11477084, guid: 14c453ae4f1dd924f97e54637727c306, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1718678223}
@@ -280,7 +276,11 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1718678223}
-    - target: {fileID: 11477084, guid: 14c453ae4f1dd924f97e54637727c306, type: 2}
+    - target: {fileID: 11447902, guid: 14c453ae4f1dd924f97e54637727c306, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1718678223}
+    - target: {fileID: 11486876, guid: 14c453ae4f1dd924f97e54637727c306, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1718678223}
@@ -367,6 +367,10 @@ Prefab:
     - target: {fileID: 414302, guid: 701b485a10ecdd448b9322cfea4095e3, type: 2}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11425520, guid: 701b485a10ecdd448b9322cfea4095e3, type: 2}
+      propertyPath: m_Text
+      value: TAB TO LOCK MOVEMENT (TOGGLE)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 701b485a10ecdd448b9322cfea4095e3, type: 2}
