@@ -174,7 +174,7 @@ public class DataCollector : Singleton<DataCollector> {
 	
 	private string Sanitize(string userInput)
 	{
-		userInput = Regex.Replace (userInput, @"[&^$#@!()+-,:;]", "", RegexOptions.None); 
+		userInput = Regex.Replace (userInput, @"'[&^$#@!()+-,:;]", "", RegexOptions.None); 
 		if(userInput == "" || userInput == " ")
 		{
 			userInput = "(No answer given)";
