@@ -1,4 +1,10 @@
-﻿using UnityEngine;
+﻿/* DisableSave.cs
+ * Author: Evan Daley
+ * Revision: 0
+ * Rev. Author: 
+ * Description: After the player has been killed disable the players ability to save	*/
+
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 

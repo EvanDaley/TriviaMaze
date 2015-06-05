@@ -1,4 +1,11 @@
-﻿/// A single entry in the list of trivia questions. 
+﻿/* TriviaEntry.cs
+ * Author: Evan Daley
+ * Revision: 0
+ * Rev. Author: 
+ * Description: Encapsulates one question and corresponding answers. On creation string a holds the correct answer.
+ */
+
+/// A single entry in the list of trivia questions. 
 public class TriviaEntry
 {
 	public string question;
