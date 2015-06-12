@@ -161,7 +161,7 @@ public class DataCollector : Singleton<DataCollector> {
 		// Prepare to give SQL Commands
 		mCommand = mConnection.CreateCommand();
 		mConnection.Open ();
-
+		
 		// Insert user's text into our SQL command as paramaterized statements. 
 		mCommand.CommandText = "INSERT INTO " + SQL_TABLE_NAME + 
 			" (Question, CorrectAnswer, Answer2, Answer3, Answer4, Category, Difficulty) VALUES ('" + 
